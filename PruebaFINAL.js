@@ -41,7 +41,7 @@ require(["esri/map",
             var centrosSalud = new FeatureLayer("https://services3.arcgis.com/2aFloSmRnbHXXRIn/ArcGIS/rest/services/CENTROS_SALUD/FeatureServer/0");
             map.addLayer(centrosSalud);
 
-            function fServiceAreaTask() {
+            function ServiceAreaTask3min() {
 
                 var query = new Query();
                 query.where = "1=1";
