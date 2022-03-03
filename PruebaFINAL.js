@@ -45,7 +45,6 @@ require(["esri/map",
 
                 var query = new Query();
                 query.where = "1=1";
-                centrosSalud.selectFeatures(query, FeatureLayer.SELECTION_NEW);
 
                 centrosSalud.selectFeatures(query, FeatureLayer.SELECTION_NEW, function (seleccion) {
 
